@@ -22,7 +22,7 @@ add module example
 ```
 
 module "sg" {
-  source              = "git::https://gitlab.com/t3774/module_aws_sgroup.git"
+  source              = "git::https://github.com/devopsifyco/terraform_module_template.git//module_aws_sgroup"
   common_tags         = local.common_tags
   prefix              = local.prefix
   vpc_id              = vpc.id
